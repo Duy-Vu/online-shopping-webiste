@@ -1,20 +1,4 @@
-### Responsibilities:
-- Authentication
-- Implement all API endpoints in routes: 
-    - Controller's functionalities for users, products, orders
-- Data models (Schemas) for users, products, orders
-- Implement event listeners to handle interaction at pages: users.html, products.html, and orders.html
-- Write JSDoc for all exported functions
-- Fix ESLint errors and warnings
-- Fix all critical and serious issues related to accessibility
-- Code coverage
-- Fix bugs, vulnerabilities and code smells when analysing in SonarQube
-- Deploy this web application on Heroku  
-- Write documentations
-- Draw UML diagram
-
-
-## WebDev1 coursework assignment  
+# WebDev1 coursework assignment  
 
 A simple web shop with vanilla HTML, CSS. Heroku link to the website: https://webdev04.herokuapp.com/. In order to log in, one can use the following username and password:  
 - As admin: admin@email.com and _1234567890_  
@@ -154,3 +138,20 @@ To mitigate the problem, server's response to the CORS requests include headers 
 
 ### Brute force attack  
 Attackers can try so many passwords and hope that they can eventually "guessing" a right combination characters that matches the password and hence steal data from user. Hence, when storing user information, only password with at least 10 characters are allowed to use, and then it is hashed with [bcrypt](https://www.npmjs.com/package/bcrypt) which incorporates a salt to protect against rainbow table attacks ("guessing" a passowrd so that after being put into the hash function, it can results in the same hash with the stored hash password).
+
+# Responsibilities:
+- Authentication
+- Implement all API endpoints in routes: 
+    - Controller's functionalities for users, products, orders
+- Data models (Schemas) for users, products, orders
+- Implement event listeners to handle interaction at pages: users.html, products.html, and orders.html
+- Write JSDoc for all exported functions
+- Fix ESLint errors and warnings
+- Fix all critical and serious issues related to accessibility
+- Code coverage
+- Fix bugs, vulnerabilities and code smells when analysing in SonarQube
+- Deploy this web application on Heroku  
+- Write documentations
+- Draw UML diagram
+
+# Note: This is a course project. Some of the pictures, and especially the link to the website might be obsolete due to the inability to maintain.
